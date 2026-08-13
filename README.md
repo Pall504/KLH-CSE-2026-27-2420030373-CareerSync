@@ -1,81 +1,107 @@
-# AI Resume Screening & Job Recommendation
+# CareerSync: AI Resume Screening & Job Recommendation
+# Adaptive Software Engineering - 24CI3201
 
-## Team Members
-| Name | ID Number |
-|---|---|
-| [Team Member 1] | [ID] |
-| [Team Member 2] | [ID] |
-| [Team Member 3] | [ID] |
-| [Team Member 4] | [ID] |
+## Project Overview
 
-## Supervisor
-**Supervisor Name:** [Supervisor Name]
+CareerSync is an AI-powered resume screening and job recommendation system designed to automate the initial recruitment process and help candidates identify suitable job roles.
+
+The system uses Machine Learning and Natural Language Processing (NLP) techniques to analyze resumes, extract relevant skills and qualifications, classify candidate profiles, and recommend suitable job roles based on their skills and qualifications.
+
+
 
 ## Abstract
-AI Resume Screening & Job Recommendation is an intelligent system designed to analyze resumes and recommend suitable job opportunities based on the candidate's skills, qualifications, experience, and other relevant attributes. The system aims to reduce manual resume screening effort and improve the relevance of job recommendations using Artificial Intelligence and Machine Learning techniques.
 
-## Project Structure
-```text
-AI-Resume-Screening-Job-Recommendation/
-├── src/        # Source code
-├── docs/       # Project documentation
-├── data/       # Dataset or documented data-source references
-├── results/    # Generated results and outputs
-├── reports/    # Review/phase reports
-└── README.md   # Project information and instructions
-```
+CareerSync aims to provide an intelligent and efficient solution for automated resume screening and personalized job recommendation. Traditional recruitment processes often require significant time and manual effort to evaluate resumes and match candidates with appropriate job positions.
 
-## Data Source
-Place the project dataset inside `data/`, or document the external dataset/data-source reference here.
+The proposed system automates this process by parsing resumes, extracting relevant information such as skills, education, experience, and qualifications, and applying Machine Learning techniques to classify candidate profiles. Based on the extracted features and predicted category, the system recommends suitable job roles to candidates.
 
-**Data source:** [Add dataset name/link/reference]
+CareerSync can assist recruiters in reducing the time required for preliminary resume screening while providing candidates with relevant career opportunities. The project combines Python, Natural Language Processing, Machine Learning, Pandas, NumPy, Scikit-learn, and optionally Streamlit for the user interface.
 
-## Setup Instructions
-1. Clone or download the repository.
-2. Open the project directory.
-3. Install the required dependencies listed by the project.
-4. Place the required dataset in the `data/` folder.
-5. Configure any required environment variables or settings.
+---
 
-## Execution Instructions
-1. Navigate to the project root directory.
-2. Run the source code from the `src/` directory using the project's required command.
-3. Check generated outputs in `results/`.
-4. Check project reports in `reports/`.
+## Objectives
 
-**Execution command:** `[Add final execution command]`
+- Automate the initial screening of resumes.
+- Extract relevant candidate information from resumes.
+- Identify and classify candidate skills and qualifications.
+- Recommend suitable job roles based on candidate profiles.
+- Reduce the manual effort involved in preliminary recruitment screening.
+- Provide an easy-to-use interface for resume analysis and recommendations.
+- Demonstrate the practical application of Machine Learning and NLP in recruitment.
 
-## Current Phase Status
-**Current Phase:** [Add current phase, e.g., Review-1 / Review-2 / Final]
+---
 
-**Status:** [In Progress / Completed]
+## Key Features
 
-## Contribution & GitHub Commit Policy
-Every team member must use their own GitHub account and make meaningful commits so individual contributions are verifiable.
+### 1. Resume Parsing
 
-The team should maintain progressive commits throughout the project, with a minimum of **one meaningful commit per week per team**.
+Extract relevant information from uploaded resumes, including:
 
-Suggested commit format:
-```text
-Week 1: Initial project structure
-Week 2: Resume preprocessing module
-Week 3: Screening model implementation
-Week 4: Job recommendation module
-Week 5: Testing and result analysis
-```
+- Skills
+- Educational qualifications
+- Work experience
+- Certifications
+- Technical competencies
 
-## Phase Tags
-Each phase deliverable should be tagged properly in GitHub.
+### 2. Resume Classification
 
-Examples:
-```text
-review-1
-review-2
-final
-```
+Uses Machine Learning techniques to classify resumes according to relevant job or career categories.
 
-Git tags can be created using:
-```bash
-git tag review-1
-git push origin review-1
-```
+### 3. Job Recommendation
+
+Recommends suitable job roles by comparing candidate skills and qualifications with available job categories.
+
+### 4. Machine Learning Model
+
+Uses supervised Machine Learning techniques for resume classification and recommendation.
+
+### 5. User-Friendly Interface
+
+Provides an interface through which users can upload resumes and obtain screening results and job recommendations.
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Natural Language Processing (NLP)
+- Streamlit
+- Matplotlib
+- Seaborn
+
+---
+
+## Mandatory Repository Structure
+
+The project follows the required repository structure:
+
+CareerSync/
+│
+├── src/
+│   └── Source code and application modules
+│
+├── docs/
+│   └── Project documentation and supporting documents
+│
+├── data/
+│   └── Datasets used for training and evaluation
+│
+├── results/
+│   └── Model outputs, evaluation results, and visualizations
+│
+├── reports/
+│   └── Project reports and academic documents
+│
+└── README.md
+
+### Folder Description
+
+* src/ – Contains the source code, preprocessing modules, Machine Learning models, recommendation logic, and application files.
+* docs/ – Contains project documentation, diagrams, methodology, and supporting documents.
+* data/ – Contains datasets used for training, testing, and evaluation. If the dataset cannot be redistributed, a documented reference to the original data source will be provided.
+* results/ – Contains model predictions, evaluation metrics, graphs, visualizations, and experimental results.
+* reports/ – Contains project reports, research documentation, and final academic deliverables.
+* README.md – Contains the project overview, team information, setup instructions, execution instructions,
